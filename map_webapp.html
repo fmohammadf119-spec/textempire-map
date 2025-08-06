@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نقشه جهان - TextEmpire</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        body {
+            font-family: 'Tahoma', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            direction: rtl;
+        }
+        
+        .header {
+            background: rgba(0,0,0,0.3);
+            padding: 10px;
+            text-align: center;
+            border-bottom: 2px solid #4CAF50;
+        }
+        
+        .controls {
+            background: rgba(0,0,0,0.2);
+            padding: 10px;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .btn {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+        
+        .btn:hover {
+            background: #45a049;
+        }
+        
+        .btn.active {
+            background: #ff9800;
+        }
+        
+        #map {
+            height: 400px;
+            width: 100%;
+            border: 2px solid #4CAF50;
+        }
+        
+        .info-panel {
+            background: rgba(0,0,0,0.3);
+            padding: 15px;
+            margin: 10px;
+            border-radius: 10px;
+            border: 1px solid #4CAF50;
+        }
+        
+        .country-list {
+            max-height: 200px;
+            overflow-y: auto;
+            background: rgba(0,0,0,0.2);
+            padding: 10px;
+            border-radius: 5px;
+        }
+        
+        .country-item {
+            padding: 5px;
+            margin: 2px 0;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        
+        .country-item:hover {
+            background: rgba(255,255,255,0.1);
+        }
+        
+        .relation-friend { color: #4CAF50; }
+        .relation-neutral { color: #ff9800; }
+        .relation-enemy { color: #f44336; }
+        .relation-me { color: #2196F3; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>🗺️ نقشه جهان - TextEmpire</h2>
+        <p id="user-info">در حال بارگذاری...</p>
+    </div>
+    
+    <div class="controls">
+        <button class="btn" onclick="showCountries()">📍 کشورها</button>
+        <button class="btn" onclick="showRelations()">🤝 روابط</button>
+        <button class="btn" onclick="showDistance()">📏 فاصله</button>
+        <button class="btn" onclick="resetMap()">🔄 بازنشانی</button>
+    </div>
+    
+    <div id="map"></div>
+    
+    <div class="info-panel">
+        <h3>📊 اطلاعات نقشه</h3>
+        <div id="map-info">در حال بارگذاری...</div>
+    </div>
+    
+    <script>
+        // تنظیمات اولیه نقشه
+        let map = L.map('map').setView([20, 0], 2);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+        
+        // دریافت داده‌ها از API
+        let countries = [];
+        let currentUser = '712413375726'; // شناسه کاربر فعلی
+        
+        // دریافت کشورها از API
+        fetch('/api/countries')
+            .then(response => response.json())
+            .then(data => {
+                countries = data;
+                showCountries();
+            })
+            .catch(error => {
+                console.error('خطا در دریافت داده‌ها:', error);
+                // استفاده از داده‌های نمونه در صورت خطا
+                countries = [
+                    {name: 'ایران', lat: 32.4279, lng: 53.6880, user: '712413375726', relation: 0},
+                    {name: 'فرانسه', lat: 46.2276, lng: 2.2137, user: '123456789', relation: 60},
+                    {name: 'آلمان', lat: 51.1657, lng: 10.4515, user: '987654321', relation: -30},
+                    {name: 'برزیل', lat: -14.2350, lng: -51.9253, user: '555666777', relation: 20}
+                ];
+                showCountries();
+            });
+        
+        let markers = [];
+        
+        // نمایش اطلاعات کاربر
+        document.getElementById('user-info').innerHTML = `👤 شما: ${currentUser} - ایران`;
+        
+        // تابع نمایش کشورها
+        function showCountries() {
+            clearMarkers();
+            countries.forEach(country => {
+                let color = country.user === currentUser ? '#2196F3' : '#4CAF50';
+                let marker = L.marker([country.lat, country.lng])
+                    .bindPopup(`<b>${country.name}</b><br>کاربر: ${country.user}`)
+                    .addTo(map);
+                markers.push(marker);
+            });
+            updateInfo('📍 کشورهای فعال نمایش داده شدند');
+        }
+        
+        // تابع نمایش روابط
+        function showRelations() {
+            clearMarkers();
+            countries.forEach(country => {
+                let color, relationText;
+                if (country.user === currentUser) {
+                    color = '#2196F3';
+                    relationText = 'شما';
+                } else if (country.relation >= 60) {
+                    color = '#4CAF50';
+                    relationText = 'دوست';
+                } else if (country.relation >= -20) {
+                    color = '#ff9800';
+                    relationText = 'خنثی';
+                } else {
+                    color = '#f44336';
+                    relationText = 'دشمن';
+                }
+                
+                let marker = L.marker([country.lat, country.lng])
+                    .bindPopup(`<b>${country.name}</b><br>روابط: ${relationText} (${country.relation})`)
+                    .addTo(map);
+                markers.push(marker);
+            });
+            updateInfo('🤝 روابط دیپلماتیک نمایش داده شدند');
+        }
+        
+        // تابع محاسبه فاصله
+        function showDistance() {
+            clearMarkers();
+            let userCountry = countries.find(c => c.user === currentUser);
+            if (!userCountry) return;
+            
+            // نمایش کشور کاربر
+            let userMarker = L.marker([userCountry.lat, userCountry.lng], {
+                icon: L.divIcon({
+                    className: 'custom-div-icon',
+                    html: `<div style="background-color: #2196F3; width: 20px; height: 20px; border-radius: 50%; border: 2px solid white;"></div>`,
+                    iconSize: [20, 20],
+                    iconAnchor: [10, 10]
+                })
+            }).bindPopup(`<b>${userCountry.name}</b><br>شما`).addTo(map);
+            markers.push(userMarker);
+            
+            // نمایش سایر کشورها و خطوط فاصله
+            countries.forEach(country => {
+                if (country.user !== currentUser) {
+                    let distance = calculateDistance(userCountry.lat, userCountry.lng, country.lat, country.lng);
+                    let marker = L.marker([country.lat, country.lng])
+                        .bindPopup(`<b>${country.name}</b><br>فاصله: ${Math.round(distance)} کیلومتر`)
+                        .addTo(map);
+                    markers.push(marker);
+                    
+                    // خط فاصله
+                    let line = L.polyline([[userCountry.lat, userCountry.lng], [country.lat, country.lng]], {
+                        color: '#ff9800',
+                        weight: 2,
+                        opacity: 0.7
+                    }).addTo(map);
+                    markers.push(line);
+                }
+            });
+            updateInfo('📏 فاصله‌ها محاسبه و نمایش داده شدند');
+        }
+        
+        // تابع محاسبه فاصله
+        function calculateDistance(lat1, lng1, lat2, lng2) {
+            const R = 6371; // شعاع زمین در کیلومتر
+            const dLat = (lat2 - lat1) * Math.PI / 180;
+            const dLng = (lng2 - lng1) * Math.PI / 180;
+            const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+                     Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+                     Math.sin(dLng/2) * Math.sin(dLng/2);
+            const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+            return R * c;
+        }
+        
+        // تابع پاک کردن مارکرها
+        function clearMarkers() {
+            markers.forEach(marker => map.removeLayer(marker));
+            markers = [];
+        }
+        
+        // تابع بازنشانی نقشه
+        function resetMap() {
+            clearMarkers();
+            map.setView([20, 0], 2);
+            updateInfo('🔄 نقشه بازنشانی شد');
+        }
+        
+        // تابع به‌روزرسانی اطلاعات
+        function updateInfo(text) {
+            document.getElementById('map-info').innerHTML = `
+                <p>${text}</p>
+                <p>📍 تعداد کشورها: ${countries.length}</p>
+                <p>🕐 آخرین به‌روزرسانی: ${new Date().toLocaleTimeString('fa-IR')}</p>
+            `;
+        }
+        
+        // نمایش اولیه کشورها
+        showCountries();
+    </script>
+</body>
+</html> 
