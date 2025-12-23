@@ -1,0 +1,983 @@
+{
+  "6602925597": {
+    "user_id": 6602925597,
+    "name": "",
+    "nickname": "",
+    "player_name": "Moh",
+    "phone": "+989054438900",
+    "capital": "",
+    "location": {
+      "latitude": 35.811992,
+      "longitude": 50.904929,
+      "city": null,
+      "country": null
+    },
+    "profile": {
+      "is_registered": true,
+      "has_country": false
+    },
+    "country": "",
+    "current_country_name": "",
+    "inventory": {
+      "credits": 2750,
+      "items": [],
+      "special_packages": []
+    },
+    "titles": [
+      {
+        "name": "امپراتور جهان",
+        "season": 1
+      },
+      {
+        "name": "پیشکسوت جهان",
+        "season": 1
+      },
+      {
+        "name": "دیپلمات اعظم",
+        "season": 2
+      },
+      {
+        "name": "محبوب ملت‌ها",
+        "season": 2
+      },
+      {
+        "name": "امپراتور جهان",
+        "season": 3
+      },
+      {
+        "name": "امپراتور جهان",
+        "season": 4
+      },
+      {
+        "name": "دیپلمات اعظم",
+        "season": 4
+      },
+      {
+        "name": "محبوب ملت‌ها",
+        "season": 4
+      }
+    ],
+    "production_tech_levels": {
+      "rice_farm": 2
+    },
+    "public_identifier": "uaz631dx",
+    "aliases": [
+      "Rylotm"
+    ],
+    "military": {
+      "defense_power": 1.0,
+      "defense_buff_turns": 0,
+      "war_success_bonus": 0.0,
+      "soldiers": 0,
+      "tanks": 0,
+      "jets": 0,
+      "bombers": 0,
+      "carriers": 0,
+      "submarines": 0,
+      "ballistic_missiles": 0,
+      "defense_missiles": 0,
+      "defense_missiles_level": 1,
+      "helicopters_power": 2.1,
+      "helicopters_level": 11
+    },
+    "economy": {
+      "resources_production": 1.0,
+      "production_buff_turns": 0,
+      "base_production": 1000,
+      "satisfaction": 70,
+      "money": 0,
+      "loan_turns": 0,
+      "loan_interest": 0.0,
+      "mines": [],
+      "farms": [],
+      "factories": [],
+      "power_plants": [],
+      "total_value": 1000000,
+      "energy": [
+        "oil_refinery"
+      ]
+    },
+    "diplomacy": {
+      "sanction_immunity": false,
+      "forced_peace_turns": 0,
+      "forced_peace_country": null,
+      "robin_hood_growth_bonus": 0.0
+    },
+    "domestic": {
+      "riot_suppression": false,
+      "revolution": 20
+    },
+    "resources": {
+      "cash": 550000000,
+      "gold": 40,
+      "steel": 350,
+      "iron": 400,
+      "copper": 150,
+      "diamond": 15,
+      "uranium": 10,
+      "wheat": 34,
+      "rice": 58,
+      "fruits": 106,
+      "oil": 3009,
+      "gas": 1000,
+      "electronics": 200000,
+      "pride_cars": 30000,
+      "benz_cars": 10000,
+      "electricity": 400,
+      "uranium_ore": 100,
+      "centrifuge": 15,
+      "yellowcake": 50,
+      "space_parts": 5,
+      "aluminum": 300,
+      "titanium": 75,
+      "soldiers": 500000,
+      "special_forces": 12000,
+      "tanks": 250,
+      "armored_vehicles": 600,
+      "transport_planes": 19,
+      "helicopters": 300,
+      "fighter_jets": 250,
+      "bombers": 6,
+      "artillery": 28,
+      "drones": 100,
+      "air_defense": 18,
+      "coastal_artillery": 24,
+      "speedboats": 90,
+      "naval_ship": 21,
+      "submarines": 9,
+      "aircraft_carriers": 4,
+      "war_robots": 500,
+      "defense_missiles": 257,
+      "ballistic_missiles": 150
+    },
+    "activated": false,
+    "government_type": "monarchy",
+    "government_title": "شاهنشاهی",
+    "country_leader_name": "لات",
+    "category": "🥇قدرت منطقه‌ای🥇",
+    "code": 872257,
+    "country_slogan": "یبببببببببببببببببب",
+    "current_names_suggestions": [
+      "ماتئو رینالدی",
+      "سوفیا باربری",
+      "محمد کریمی",
+      "شینجی اونو",
+      "کلاوس هان",
+      "میگل رویز",
+      "کوین فاستر",
+      "اشلی راس",
+      "نرگس جعفری",
+      "آنا خیمنز"
+    ],
+    "selected_officials": {
+      "minister": {
+        "name": "ساندین لورن",
+        "title": "وزیر کشور"
+      },
+      "general": {
+        "name": "الهام جعفری",
+        "title": "ژنرال"
+      },
+      "foreign": {
+        "name": "ماریا فیشر",
+        "title": "وزیر خارجه"
+      },
+      "finance": {
+        "name": "محمد کریمی",
+        "title": "وزیر دارایی"
+      }
+    },
+    "production_bonus": 15,
+    "military_bonus": 20,
+    "rebellion_risk": 5,
+    "resources_initialized": true,
+    "national_security_org": {
+      "anti_spy_active": false,
+      "features": {
+        "assassination": true,
+        "counter_assassination": true,
+        "counter_sabotage": true
+      },
+      "counter_assassination_charges": 3
+    },
+    "satisfaction": 56,
+    "population_growth_history": {
+      "growth_rate": 1.85,
+      "population_growth": 1838791,
+      "turn": 8
+    },
+    "revolution": 0,
+    "country_collapsed": false,
+    "collapse_time": 1765872982.2087452,
+    "trial_start_time": 1765112953.7888389,
+    "trial_duration": 300,
+    "trial_active": true,
+    "trial_questions": [
+      {
+        "question": "چرا اعتماد مردم به دولت کاهش یافت؟",
+        "correct": "به دلیل وعده‌های برآورده‌نشده و ضعف پاسخ‌گویی.",
+        "emotional": "مردم توقعات بی‌پایان دارند.",
+        "wrong": "اعتماد کم نشده، فقط رسانه‌ها القا می‌کنند."
+      },
+      {
+        "question": "چرا قیمت‌ها بی‌ثبات است؟",
+        "correct": "به دلیل نبود نظارت کافی و تورم ناشی از کسری بودجه.",
+        "emotional": "این سختی‌ها موقتی است و باید تحمل کرد.",
+        "wrong": "افزایش قیمت‌ها نشانه رونق اقتصادی است."
+      },
+      {
+        "question": "علت مهاجرت گسترده مردم چیست؟",
+        "correct": "نبود فرصت شغلی و ضعف امید اجتماعی.",
+        "emotional": "مهاجرت همیشه بخشی از سرنوشت ملت‌ها بوده.",
+        "wrong": "فقط خائنین کشور را ترک می‌کنند."
+      }
+    ],
+    "trial_answers": [],
+    "trial_current_question": 0,
+    "diplomatic_bonus": 15,
+    "stability_bonus": 20,
+    "immigrants": 0,
+    "immigrants_stay_turns": 0,
+    "temporary_buffs": {
+      "growth_buff_turns": 0,
+      "growth_buff_rate": 0.0
+    }
+  },
+  "7650709985": {
+    "user_id": 7650709985,
+    "name": "",
+    "nickname": "",
+    "player_name": "MHF",
+    "phone": "+989102385233",
+    "capital": "",
+    "location": {
+      "latitude": 35.811992,
+      "longitude": 50.904929,
+      "city": null,
+      "country": null
+    },
+    "profile": {
+      "is_registered": true,
+      "has_country": false
+    },
+    "country": "",
+    "current_country_name": "",
+    "inventory": {
+      "credits": 1650,
+      "items": []
+    },
+    "titles": [
+      {
+        "name": "سلطان اقتصاد",
+        "season": 1
+      },
+      {
+        "name": "دیپلمات اعظم",
+        "season": 1
+      },
+      {
+        "name": "فرمانده آهنین",
+        "season": 1
+      },
+      {
+        "name": "امپراتور جهان",
+        "season": 2
+      },
+      {
+        "name": "سلطان اقتصاد",
+        "season": 2
+      },
+      {
+        "name": "فرمانده آهنین",
+        "season": 2
+      },
+      {
+        "name": "سلطان اقتصاد",
+        "season": 4
+      },
+      {
+        "name": "فرمانده آهنین",
+        "season": 4
+      }
+    ],
+    "production_tech_levels": {
+      "iron_mine": 3
+    },
+    "public_identifier": "g5y77fip",
+    "aliases": [
+      "WM0l0MW"
+    ],
+    "activated": false,
+    "government_type": "republic",
+    "government_title": "جمهوری",
+    "country_leader_name": "480665037465",
+    "category": "🥇قدرت منطقه‌ای🥇",
+    "code": 976573,
+    "country_slogan": "480665037465",
+    "current_names_suggestions": [
+      "فرانسوا مورو",
+      "کیمبرلی کول",
+      "پاتریک سولیوان",
+      "کریستینا گریفین",
+      "ربکا پرز",
+      "ریموند هامیلتون",
+      "حسن احمدی",
+      "لورا خیمنز",
+      "آیومی ناکامورا",
+      "وولفگانگ شولتز"
+    ],
+    "selected_officials": {
+      "minister": {
+        "name": "یون جون-سوک",
+        "title": "وزیر کشور"
+      },
+      "general": {
+        "name": "هیروشی واتانابه",
+        "title": "ژنرال"
+      },
+      "foreign": {
+        "name": "پاتریک کویین",
+        "title": "وزیر خارجه"
+      },
+      "finance": {
+        "name": "لورا خیمنز",
+        "title": "وزیر دارایی"
+      }
+    },
+    "resources": {
+      "cash": 292292550,
+      "gold": 40,
+      "steel": 134,
+      "iron": 153,
+      "copper": 150,
+      "diamond": 15,
+      "uranium": 10,
+      "wheat": 200,
+      "rice": 200,
+      "fruits": 200,
+      "oil": 3575,
+      "gas": 5697,
+      "electronics": 200000,
+      "pride_cars": 65224,
+      "benz_cars": 10000,
+      "electricity": 423,
+      "uranium_ore": 100,
+      "centrifuge": 15,
+      "yellowcake": 50,
+      "space_parts": 5,
+      "aluminum": 300,
+      "titanium": 75,
+      "soldiers": 500000,
+      "special_forces": 12000,
+      "tanks": 250,
+      "armored_vehicles": 600,
+      "transport_planes": 19,
+      "helicopters": 300,
+      "fighter_jets": 250,
+      "bombers": 6,
+      "artillery": 28,
+      "drones": 100,
+      "air_defense": 18,
+      "coastal_artillery": 24,
+      "speedboats": 90,
+      "naval_ship": 21,
+      "submarines": 9,
+      "aircraft_carriers": 4,
+      "war_robots": 500,
+      "defense_missiles": 250,
+      "ballistic_missiles": 150
+    },
+    "production_bonus": 10,
+    "military_bonus": 30,
+    "rebellion_risk": 10,
+    "resources_initialized": true,
+    "economy": {
+      "mines": [],
+      "farms": [],
+      "factories": [],
+      "power_plants": [],
+      "total_value": 1000000,
+      "space_energy": [],
+      "production_lines": [
+        "pride_line"
+      ],
+      "energy": [
+        "power_plant",
+        "gas_refinery",
+        "oil_refinery",
+        "power_plant"
+      ],
+      "production_buff_turns": 0,
+      "resources_production": 1.0
+    },
+    "military": {
+      "defense_power": 1.0,
+      "defense_buff_turns": 0,
+      "war_success_bonus": 0.0,
+      "soldiers": 0,
+      "tanks": 0,
+      "jets": 0,
+      "bombers": 0,
+      "carriers": 0,
+      "submarines": 0,
+      "ballistic_missiles": 0,
+      "defense_missiles": 0,
+      "chemical_bomb_level": 4
+    },
+    "diplomacy": {
+      "sanction_immunity": false,
+      "forced_peace_turns": 0,
+      "forced_peace_country": null,
+      "robin_hood_growth_bonus": 0.0
+    },
+    "domestic": {
+      "riot_suppression": false,
+      "revolution": 20
+    },
+    "national_security_org": {
+      "anti_spy_active": false
+    },
+    "satisfaction": 0,
+    "population_growth_history": {
+      "growth_rate": 0.0,
+      "population_growth": 0,
+      "turn": 8
+    },
+    "foreign_minister_suggestions": {
+      "6602925597": {
+        "target_id": "6602925597",
+        "target_country": "ایالات متحده آمریکا 🇺🇸",
+        "suggested_at": 2,
+        "followed": false
+      }
+    },
+    "trade_bonus": 10,
+    "innovation_bonus": 10,
+    "diplomatic_bonus": 15,
+    "stability_bonus": 10,
+    "immigrants": 0,
+    "extra_sea_access": true,
+    "military_wins": 2,
+    "extra_sea_access_sources": [],
+    "immigrants_stay_turns": 0
+  },
+  "7377609725": {
+    "user_id": 7377609725,
+    "name": "",
+    "nickname": "",
+    "player_name": "am F",
+    "phone": "+989101637676",
+    "capital": "",
+    "location": {
+      "latitude": 35.818918,
+      "longitude": 50.972832,
+      "city": null,
+      "country": null
+    },
+    "profile": {
+      "is_registered": true,
+      "has_country": false
+    },
+    "country": "",
+    "current_country_name": "",
+    "inventory": {
+      "credits": 0,
+      "items": []
+    },
+    "titles": [],
+    "production_tech_levels": {},
+    "public_identifier": "tkai3bis",
+    "aliases": [
+      "polosodo"
+    ],
+    "activated": false,
+    "government_type": "military",
+    "government_title": "نظامی",
+    "country_leader_name": "صدام",
+    "category": "🥉عادی🥉",
+    "code": 234890,
+    "country_slogan": "بازم ترررررررررر",
+    "current_names_suggestions": [
+      "پترا کونگ",
+      "جوزف لوئیس",
+      "جولیا گونزالس",
+      "یولیا نوویکوا",
+      "ژو وی",
+      "جانگ مین-سوک",
+      "آنتونیو بیانکی",
+      "مریم نوری",
+      "میرا پاتل",
+      "زهرا رضایی"
+    ],
+    "selected_officials": {
+      "minister": {
+        "name": "جک وست",
+        "title": "وزیر کشور"
+      },
+      "general": {
+        "name": "فرانسوا مورو",
+        "title": "ژنرال"
+      },
+      "foreign": {
+        "name": "ادوارد میچل",
+        "title": "وزیر خارجه"
+      },
+      "finance": {
+        "name": "مریم نوری",
+        "title": "وزیر دارایی"
+      }
+    },
+    "resources": {
+      "cash": 0,
+      "gold": 0,
+      "steel": 0,
+      "iron": 0,
+      "copper": 0,
+      "diamond": 0,
+      "uranium": 0,
+      "wheat": 0,
+      "rice": 0,
+      "fruits": 0,
+      "oil": 0,
+      "gas": 0,
+      "electronics": 0,
+      "pride_cars": 0,
+      "benz_cars": 0,
+      "electricity": 0,
+      "uranium_ore": 0,
+      "centrifuge": 0,
+      "yellowcake": 0,
+      "space_parts": 0,
+      "aluminum": 0,
+      "titanium": 0,
+      "soldiers": 0,
+      "special_forces": 0,
+      "tanks": 0,
+      "armored_vehicles": 0,
+      "transport_planes": 0,
+      "helicopters": 0,
+      "fighter_jets": 0,
+      "bombers": 0,
+      "artillery": 0,
+      "drones": 0,
+      "air_defense": 0,
+      "coastal_artillery": 0,
+      "speedboats": 0,
+      "naval_ship": 0,
+      "submarines": 0,
+      "aircraft_carriers": 0,
+      "war_robots": 0,
+      "defense_missiles": 0,
+      "ballistic_missiles": 0
+    },
+    "diplomatic_bonus": 15,
+    "stability_bonus": 20,
+    "rebellion_risk": 10,
+    "resources_initialized": true,
+    "economy": {
+      "mines": [],
+      "farms": [],
+      "factories": [],
+      "power_plants": [],
+      "total_value": 1000000,
+      "production_buff_turns": 0,
+      "resources_production": 1.0
+    },
+    "national_security_org": {
+      "anti_spy_active": false
+    },
+    "satisfaction": 32,
+    "military": {
+      "defense_power": 1.0,
+      "defense_buff_turns": 0,
+      "war_success_bonus": 0.0,
+      "soldiers": 0,
+      "tanks": 0,
+      "jets": 0,
+      "bombers": 0,
+      "carriers": 0,
+      "submarines": 0,
+      "ballistic_missiles": 0,
+      "defense_missiles": 0
+    },
+    "diplomacy": {
+      "sanction_immunity": false,
+      "forced_peace_turns": 0,
+      "forced_peace_country": null,
+      "robin_hood_growth_bonus": 0.0
+    },
+    "domestic": {
+      "riot_suppression": false,
+      "revolution": 20
+    },
+    "population_growth_history": {
+      "growth_rate": 1.85,
+      "population_growth": 758500,
+      "turn": 2
+    },
+    "panel_suspensions": {
+      "strategy": 11
+    },
+    "production_bonus": 10,
+    "military_bonus": 30,
+    "conquered_captured_cash": 1030000000,
+    "was_conquered": true,
+    "conquered_by": "ترکیه 🇹🇷",
+    "conquered_at": 1765732155.3635573,
+    "independence_deadline_turn": 8
+  },
+  "1723314999": {
+    "user_id": 1723314999,
+    "name": "",
+    "nickname": "",
+    "player_name": "𝐀𝐒𝐇𝐊𝐀𝐍 ⁪",
+    "phone": "989210947068",
+    "capital": "",
+    "location": {
+      "latitude": 35.812505,
+      "longitude": 50.901008,
+      "city": null,
+      "country": null
+    },
+    "profile": {
+      "is_registered": true,
+      "has_country": false
+    },
+    "country": "",
+    "current_country_name": "",
+    "inventory": {
+      "credits": 50,
+      "items": []
+    },
+    "titles": [
+      {
+        "name": "محبوب ملت‌ها",
+        "season": 1
+      }
+    ],
+    "production_tech_levels": {},
+    "public_identifier": "yc7z4rfd",
+    "aliases": [
+      "ASH_BQ"
+    ],
+    "activated": false,
+    "government_type": "dictatorship",
+    "government_title": "رهبری",
+    "country_leader_name": "Ashsj",
+    "category": "🥈قدرت نوظهور🥈",
+    "code": 987651,
+    "country_slogan": "Victor victorrrr",
+    "current_names_suggestions": [
+      "ایزابلا دیاز",
+      "محسن محمدی",
+      "عایشه عبدالله",
+      "جوزپه روسی",
+      "آنا ساکولوف",
+      "محمد نوری",
+      "رالف بنت",
+      "چوی یون-جونگ",
+      "جیسون برایانت",
+      "ماریا فیشر"
+    ],
+    "selected_officials": {
+      "minister": {
+        "name": "امیر حسینی",
+        "title": "وزیر کشور"
+      },
+      "general": {
+        "name": "چوی سونگ-مین",
+        "title": "ژنرال"
+      },
+      "foreign": {
+        "name": "هلگا کخ",
+        "title": "وزیر خارجه"
+      },
+      "finance": {
+        "name": "جوزپه روسی",
+        "title": "وزیر دارایی"
+      }
+    },
+    "resources": {
+      "cash": 199980000,
+      "gold": 20,
+      "steel": 100,
+      "iron": 200,
+      "copper": 50,
+      "diamond": 10,
+      "uranium": 10,
+      "wheat": 100,
+      "rice": 100,
+      "fruits": 100,
+      "oil": 500,
+      "gas": 500,
+      "electronics": 100000,
+      "pride_cars": 10000,
+      "benz_cars": 5000,
+      "electricity": 200,
+      "uranium_ore": 50,
+      "centrifuge": 7,
+      "yellowcake": 25,
+      "space_parts": 2,
+      "aluminum": 150,
+      "titanium": 45,
+      "soldiers": 200000,
+      "special_forces": 5000,
+      "tanks": 100,
+      "armored_vehicles": 200,
+      "transport_planes": 7,
+      "helicopters": 150,
+      "fighter_jets": 100,
+      "bombers": 2,
+      "artillery": 16,
+      "drones": 51,
+      "air_defense": 9,
+      "coastal_artillery": 9,
+      "speedboats": 40,
+      "naval_ship": 9,
+      "submarines": 4,
+      "aircraft_carriers": 1,
+      "war_robots": 260,
+      "defense_missiles": 150,
+      "ballistic_missiles": 90
+    },
+    "production_bonus": 15,
+    "military_bonus": 20,
+    "rebellion_risk": 15,
+    "resources_initialized": true,
+    "national_security_org": {
+      "anti_spy_active": false
+    },
+    "satisfaction": 100,
+    "military": {
+      "defense_power": 1.0,
+      "defense_buff_turns": 0,
+      "war_success_bonus": 0.0,
+      "soldiers": 0,
+      "tanks": 0,
+      "jets": 0,
+      "bombers": 0,
+      "carriers": 0,
+      "submarines": 0,
+      "ballistic_missiles": 0,
+      "defense_missiles": 0
+    },
+    "economy": {
+      "resources_production": 1.0,
+      "production_buff_turns": 0,
+      "base_production": 1000,
+      "satisfaction": 70,
+      "money": 0,
+      "loan_turns": 0,
+      "loan_interest": 0.0,
+      "mines": [],
+      "farms": [],
+      "factories": [],
+      "power_plants": []
+    },
+    "diplomacy": {
+      "sanction_immunity": false,
+      "forced_peace_turns": 0,
+      "forced_peace_country": null,
+      "robin_hood_growth_bonus": 0.0
+    },
+    "domestic": {
+      "riot_suppression": false,
+      "revolution": 20
+    }
+  },
+  "10000": {
+    "activated": false,
+    "country": "",
+    "player_name": "Test 10000",
+    "government_title": "رهبر",
+    "resources": {
+      "cash": 1000000000
+    },
+    "production_tech_levels": {},
+    "public_identifier": "mxzpnlku",
+    "capital": "",
+    "inventory": {
+      "credits": 500
+    },
+    "titles": [
+      {
+        "name": "سلطان اقتصاد",
+        "season": 3
+      },
+      {
+        "name": "دیپلمات اعظم",
+        "season": 3
+      },
+      {
+        "name": "فرمانده آهنین",
+        "season": 3
+      },
+      {
+        "name": "محبوب ملت‌ها",
+        "season": 3
+      }
+    ],
+    "military": {
+      "defense_power": 1.0,
+      "defense_buff_turns": 0
+    },
+    "economy": {
+      "production_buff_turns": 0,
+      "resources_production": 1.0,
+      "mines": [],
+      "farms": [],
+      "factories": [],
+      "power_plants": []
+    },
+    "diplomacy": {
+      "forced_peace_turns": 0,
+      "forced_peace_country": null,
+      "robin_hood_growth_bonus": 0.0
+    },
+    "profile": {
+      "has_country": false
+    },
+    "national_security_org": {
+      "anti_spy_active": false
+    },
+    "satisfaction": 56,
+    "domestic": {
+      "riot_suppression": false,
+      "revolution": 20
+    }
+  },
+  "2054542408": {
+    "user_id": 2054542408,
+    "name": "",
+    "nickname": "",
+    "player_name": "",
+    "phone": null,
+    "capital": "",
+    "location": {},
+    "profile": {
+      "is_registered": false,
+      "has_country": false
+    },
+    "country": "",
+    "current_country_name": "",
+    "inventory": {
+      "credits": 0,
+      "items": []
+    },
+    "titles": [],
+    "production_tech_levels": {},
+    "public_identifier": null,
+    "aliases": [
+      "SableValkyrie"
+    ],
+    "national_security_org": {
+      "anti_spy_active": false
+    },
+    "resources": {},
+    "satisfaction": 68,
+    "military": {
+      "defense_power": 1.0,
+      "defense_buff_turns": 0,
+      "war_success_bonus": 0.0,
+      "soldiers": 0,
+      "tanks": 0,
+      "jets": 0,
+      "bombers": 0,
+      "carriers": 0,
+      "submarines": 0,
+      "ballistic_missiles": 0,
+      "defense_missiles": 0
+    },
+    "economy": {
+      "resources_production": 1.0,
+      "production_buff_turns": 0,
+      "base_production": 1000,
+      "satisfaction": 70,
+      "money": 0,
+      "loan_turns": 0,
+      "loan_interest": 0.0,
+      "mines": [],
+      "farms": [],
+      "factories": [],
+      "power_plants": []
+    },
+    "diplomacy": {
+      "sanction_immunity": false,
+      "forced_peace_turns": 0,
+      "forced_peace_country": null,
+      "robin_hood_growth_bonus": 0.0
+    },
+    "domestic": {
+      "riot_suppression": false,
+      "revolution": 20
+    },
+    "activated": false
+  },
+  "@SableValkyrie": {
+    "username": "@SableValkyrie",
+    "user_id": null,
+    "status": "guest",
+    "profile": {
+      "is_registered": true,
+      "guest": true,
+      "has_country": false
+    },
+    "phone": "+989000000000",
+    "location": {
+      "latitude": 0.0,
+      "longitude": 0.0,
+      "city": "مجزا",
+      "country": "مهمان"
+    },
+    "player_name": "User_@SableValkyrie",
+    "production_tech_levels": {},
+    "public_identifier": "3x0gmjve",
+    "capital": "",
+    "national_security_org": {
+      "anti_spy_active": false
+    },
+    "resources": {},
+    "satisfaction": 68,
+    "inventory": {
+      "credits": 0,
+      "special_packages": []
+    },
+    "military": {
+      "defense_power": 1.0,
+      "defense_buff_turns": 0,
+      "war_success_bonus": 0.0,
+      "soldiers": 0,
+      "tanks": 0,
+      "jets": 0,
+      "bombers": 0,
+      "carriers": 0,
+      "submarines": 0,
+      "ballistic_missiles": 0,
+      "defense_missiles": 0
+    },
+    "economy": {
+      "resources_production": 1.0,
+      "production_buff_turns": 0,
+      "base_production": 1000,
+      "satisfaction": 70,
+      "money": 0,
+      "loan_turns": 0,
+      "loan_interest": 0.0,
+      "mines": [],
+      "farms": [],
+      "factories": [],
+      "power_plants": []
+    },
+    "diplomacy": {
+      "sanction_immunity": false,
+      "forced_peace_turns": 0,
+      "forced_peace_country": null,
+      "robin_hood_growth_bonus": 0.0
+    },
+    "domestic": {
+      "riot_suppression": false,
+      "revolution": 20
+    },
+    "activated": false
+  }
+}

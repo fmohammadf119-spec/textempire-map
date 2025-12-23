@@ -1,0 +1,16 @@
+{
+  "un_activated_user": null,
+  "pending_un_activation": null,
+  "ceasefire_requests": {},
+  "un_peace_scores": {},
+  "un_peace_prize_winners": [],
+  "last_peace_prize_award_turn": 0,
+  "un_resolutions": [],
+  "sanctions": {},
+  "pending_sanction": {},
+  "un_complaints": [],
+  "pending_un_complaint": {},
+  "un_courts": [],
+  "pending_un_court": {},
+  "pending_court_edit": {}
+}

@@ -1,0 +1,11 @@
+{
+  "turn": 1,
+  "season": 5,
+  "game_date": "01/01/2024",
+  "prices": {
+    "gold": 5000000,
+    "steel": 2000000,
+    "oil": 1500000,
+    "electricity": 1000000
+  }
+}

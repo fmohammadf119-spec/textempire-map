@@ -1,0 +1,23 @@
+{
+  "gold": 10,
+  "steel": 500,
+  "iron": 1000,
+  "copper": 1000,
+  "diamond": 50,
+  "uranium": 100,
+  "wheat": 1000,
+  "rice": 1000,
+  "fruits": 1000,
+  "oil": 10000,
+  "gas": 10000,
+  "electronics": 1000000,
+  "pride_cars": 100000,
+  "benz_cars": 100000,
+  "electricity": 1000,
+  "uranium_ore": 1000,
+  "centrifuge": 100,
+  "yellowcake": 1000,
+  "space_parts": 100,
+  "aluminum": 50,
+  "titanium": 20
+}

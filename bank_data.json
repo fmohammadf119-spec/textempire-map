@@ -1,0 +1,32 @@
+{
+  "total_loans_given": 0,
+  "total_loans_paid": 0,
+  "total_interest_earned": 0,
+  "bank_reserves": 100000000000,
+  "loan_types": {
+    "independence": {
+      "amount": 1000000000,
+      "interest_rate": 0.04,
+      "duration": 4,
+      "max_uses": 1
+    },
+    "development": {
+      "amount": 500000000,
+      "interest_rate": 0.22,
+      "duration": 6,
+      "max_uses": 3
+    },
+    "emergency": {
+      "amount": 200000000,
+      "interest_rate": 0.12,
+      "duration": 3,
+      "max_uses": 5
+    },
+    "secret": {
+      "amount": 300000000,
+      "interest_rate": 0.08,
+      "duration": 5,
+      "max_uses": 2
+    }
+  }
+}

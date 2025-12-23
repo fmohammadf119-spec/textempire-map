@@ -1,0 +1,30 @@
+{
+  "prices": {
+    "HUAWEI": 56.81,
+    "ALIBABA": 54.48,
+    "APPLE": 134.59,
+    "MICROSOFT": 273.59,
+    "RELIANCE": 22.98,
+    "TATA": 23.77,
+    "PAKISTAN_STEEL": 25.91,
+    "ENGRO": 24.98,
+    "NIOC": 24.26,
+    "TURKISH_AIR": 24.09,
+    "BAYKAR": 25.42,
+    "INOC": 24.92
+  },
+  "growth": {
+    "HUAWEI": -5.7,
+    "ALIBABA": 1.5,
+    "APPLE": 5.9,
+    "MICROSOFT": 2.2,
+    "RELIANCE": -1.8,
+    "TATA": -2.5,
+    "PAKISTAN_STEEL": 2.2,
+    "ENGRO": -1.2,
+    "NIOC": 2.1,
+    "TURKISH_AIR": -1.1,
+    "BAYKAR": 3.4,
+    "INOC": -0.3
+  }
+}

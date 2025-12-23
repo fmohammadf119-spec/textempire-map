@@ -1,0 +1,39 @@
+{
+  "6602925597": {
+    "latitude": 35.811992,
+    "longitude": 50.904929,
+    "location_attempts": 0,
+    "location_verified": true,
+    "status": "verified"
+  },
+  "7650709985": {
+    "latitude": 35.811992,
+    "longitude": 50.904929,
+    "location_attempts": 0,
+    "location_verified": true,
+    "status": "verified"
+  },
+  "7377609725": {
+    "latitude": 35.818918,
+    "longitude": 50.972832,
+    "location_attempts": 0,
+    "location_verified": true,
+    "status": "verified"
+  },
+  "1723314999": {
+    "latitude": 35.812505,
+    "longitude": 50.901008,
+    "location_attempts": 0,
+    "location_verified": true,
+    "status": "verified"
+  },
+  "@SableValkyrie": {
+    "latitude": 0,
+    "longitude": 0,
+    "city": null,
+    "country": null,
+    "location_attempts": 0,
+    "location_verified": false,
+    "status": "guest"
+  }
+}
